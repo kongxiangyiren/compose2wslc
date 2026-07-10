@@ -1,0 +1,24 @@
+{
+  "name": "compose2wslc",
+  "version": "1.0.0",
+  "description": "docker-compose to wsl converter",
+  "author": "空巷一人",
+  "keywords": [
+    "docker-compose",
+    "wslc",
+    "docker"
+  ],
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "c2w": "./index.js"
+  },
+  "dependencies": {
+    "decomposerize": "^1.4.4",
+    "yaml": "^2.9.0"
+  },
+  "allowScripts": {
+    "core-js@2.6.12": true
+  }
+}
